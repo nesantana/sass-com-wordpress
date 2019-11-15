@@ -1,0 +1,31 @@
+{
+  "name": "themewithsass",
+  "author": {
+    "name": "Mateus Santana",
+    "email": "nesantana15@gmail.com",
+    "url": "https://omateus.me"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-better-sass-inheritance": "0.0.3",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-chmod": "^2.0.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-wait": "0.0.2"
+  },
+  "scripts": {}
+}

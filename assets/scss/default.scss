@@ -1,0 +1,46 @@
+html {
+
+	/*
+	Author: Mateus Santana
+	Author URI: https://omateus.me;
+	*/
+
+	*{transition: all .3s ease-in-out;}
+ 	body{}
+
+	h1, h2, h3, h4, h5, h6{margin: 0; padding: 0;}
+	h1{color:#000000; flex: 1;}
+	h2{}
+	h3{}
+	h4{}
+	h5{}
+	h6{}
+
+	.inicio{height: 100%; width: 100%; display: block; position: absolute; display: flex; align-items: center; text-align: center;}
+	
+	ul{margin: 0; padding: 0;}
+  p,
+  span{margin: 0; font: normal 15px 'Poppins', sans-serif; line-height: 120%; color: #666666;}
+ 
+  a{
+		text-decoration: none;
+    &:hover, &:focus, &:visited{text-decoration: none;}
+  }
+
+  $i: 0;
+  @while $i < 250 {
+  	$i: $i + 5;
+    .mt#{$i}{margin-top: #{$i}px};
+  }
+
+	.pn{pointer-events: none;}
+	/* ---------------------------------------------------------------------------------------------------------------- */
+
+	/* Responsivo, sites recortados em 1920 (Fluido) devem conter informações dentrodentro de 1366 / Responsividade minima 320px */
+	@media (max-width: 1366px) {}
+	@media (max-width: 1200px) {}
+	@media (max-width: 991px) {}
+	@media (max-width: 768px) {}
+	@media (max-width: 479px) {}
+	@media (max-width: 320px) {}
+}
